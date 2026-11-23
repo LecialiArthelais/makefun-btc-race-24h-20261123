@@ -32,7 +32,7 @@ Simulated on the kit's 1,440 dev bars with the harness fill model (fee 4 bps,
 slippage 2 bps, price impact vs pool depth): **net PnL +$18.74, 14 trades,
 max drawdown −0.84%, 3 round trips won / 0 lost**. Both halves of the window
 are positive (+$6.15 / +$12.52), and with fees doubled the PnL is still
-+$17.07. Honest caveat: the dev window is an uptrend (+3.59%; buy-and-hold
++$16.51 (grade-local). Honest caveat: the dev window is an uptrend (+3.59%; buy-and-hold
 alone would make +$35.86), so a falling live window can still hurt — this
 design cuts the bleeding of the previous race's version, it does not
 guarantee a top-10 finish.
